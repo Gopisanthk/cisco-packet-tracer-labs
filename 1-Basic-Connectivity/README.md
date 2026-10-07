@@ -13,3 +13,7 @@ a switch, and a router.
 ## Troubleshooting
 Corrected an incorrect default gateway
 and verified successful connectivity.
+
+## Network Topology
+
+![1 Network Topology](network-topology.png)
