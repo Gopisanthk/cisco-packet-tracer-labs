@@ -64,7 +64,6 @@ Both configured interfaces are operational.
 show interfaces status
 show vlan brief
 
-
 ## Connectivity Verification
 
 ### PC1 to PC2
@@ -99,3 +98,11 @@ and verified successful connectivity.
 - Examined switch VLAN assignments.
 - Tested communication between subnets.
 - Troubleshot connectivity issues.
+
+## Ping Test Evidence
+
+### PC1 to PC2
+![PC1 Ping](PC1-to-PC2-ping.png)
+
+### PC2 to PC1
+![PC2 Ping](PC2-to-PC1-ping.png)
