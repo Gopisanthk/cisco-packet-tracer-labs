@@ -29,3 +29,18 @@ and verified successful connectivity.
 
 Connectivity between PC1 and PC2
 will be tested using ICMP ping.
+
+## Router R1 Configuration
+
+| Interface | IP Address | Status |
+|---|---|---|
+| G0/0 | 192.168.10.1/24 | Up/Up |
+| G0/1 | 192.168.20.1/24 | Up/Up |
+| G0/2 | Unassigned | Admin Down |
+
+### Routing
+R1 connects two LANs:
+- 192.168.10.0/24
+- 192.168.20.0/24
+
+Both configured interfaces are operational.
