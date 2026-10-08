@@ -61,5 +61,41 @@ Both configured interfaces are operational.
 - No additional VLANs configured.
 
 ### Verification Commands
--show interfaces status
--show vlan brief
+show interfaces status
+show vlan brief
+
+
+## Connectivity Verification
+
+### PC1 to PC2
+ping 192.168.20.10
+
+- Sent: 4
+- Received: 4
+- Packet loss: 0%
+- Result: PASS
+
+### PC2 to PC1
+ping 192.168.10.10
+
+- Sent: 4
+- Received: 4
+- Packet loss: 0%
+- Result: PASS
+
+## Troubleshooting
+
+Initially, PC1 had an incorrect
+default gateway.
+
+Corrected the gateway to 192.168.10.1
+and verified successful connectivity.
+
+## Lessons Learned
+
+- Configured IPv4 addressing.
+- Configured default gateways.
+- Verified router interface status.
+- Examined switch VLAN assignments.
+- Tested communication between subnets.
+- Troubleshot connectivity issues.
