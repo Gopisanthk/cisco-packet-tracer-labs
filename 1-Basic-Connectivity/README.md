@@ -62,6 +62,7 @@ Both configured interfaces are operational.
 
 ### Verification Commands
 show interfaces status
+
 show vlan brief
 
 ## Connectivity Verification
