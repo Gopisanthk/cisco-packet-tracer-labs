@@ -61,5 +61,5 @@ Both configured interfaces are operational.
 - No additional VLANs configured.
 
 ### Verification Commands
-show interfaces status
-show vlan brief
+-show interfaces status
+-show vlan brief
