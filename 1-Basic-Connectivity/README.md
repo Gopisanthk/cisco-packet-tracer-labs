@@ -44,3 +44,22 @@ R1 connects two LANs:
 - 192.168.20.0/24
 
 Both configured interfaces are operational.
+
+## Switch Configuration
+
+### Interface Status
+
+| Interface | Status | VLAN |
+|---|---|---|
+| Fa0/1 | Connected | 1 |
+| Gig0/1 | Connected | 1 |
+| Other ports | Not connected | 1 |
+
+### VLAN Configuration
+- VLAN 1 is active.
+- All ports belong to VLAN 1.
+- No additional VLANs configured.
+
+### Verification Commands
+show interfaces status
+show vlan brief
