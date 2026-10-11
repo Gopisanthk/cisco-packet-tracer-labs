@@ -27,3 +27,26 @@ To be documented.
 
 ## Lessons Learned
 To be completed.
+
+
+## Router Interface Configuration
+
+| Interface | IP Address | Status |
+|---|---|---|
+| G0/0 | 10.10.10.1/24 | Up/Up |
+| G0/1 | 10.10.20.1/24 | Up/Up |
+
+## Routing Table
+
+| Route | Network | Interface |
+|---|---|---|
+| C | 10.10.10.0/24 | G0/0 |
+| L | 10.10.10.1/32 | G0/0 |
+| C | 10.10.20.0/24 | G0/1 |
+| L | 10.10.20.1/32 | G0/1 |
+
+## Verification Commands
+
+- show ip interface brief
+- show ip route
+- show running-config
