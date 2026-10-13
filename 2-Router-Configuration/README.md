@@ -77,3 +77,7 @@ during the final verification tests.
 - Examined the routing table.
 - Tested communication between subnets.
 - Achieved 0% packet loss.
+
+## Router Configuration
+
+[View R1 Configuration](R1-config.txt)
