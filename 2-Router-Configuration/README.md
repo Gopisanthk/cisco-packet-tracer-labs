@@ -50,3 +50,30 @@ To be completed.
 - show ip interface brief
 - show ip route
 - show running-config
+
+## Connectivity Verification
+
+| Test | Result | Packet Loss |
+|---|---|---|
+| PC1 to PC2 | PASS | 0% |
+| PC2 to PC1 | PASS | 0% |
+
+## Routing Verification
+
+- G0/0: 10.10.10.1/24 - Up/Up
+- G0/1: 10.10.20.1/24 - Up/Up
+- Both LANs are directly connected.
+- No static routes required.
+
+## Troubleshooting
+
+No connectivity failures were observed
+during the final verification tests.
+
+## Lessons Learned
+
+- Configured router interfaces.
+- Verified connected and local routes.
+- Examined the routing table.
+- Tested communication between subnets.
+- Achieved 0% packet loss.
