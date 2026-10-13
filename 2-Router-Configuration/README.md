@@ -4,8 +4,6 @@
 Configure a Cisco router to connect
 two separate LANs.
 
-## Network Topology
-Topology screenshot will be added.
 
 ## IP Addressing
 
@@ -15,18 +13,6 @@ Topology screenshot will be added.
 | R1 G0/1 | 10.10.20.1/24 |
 | PC1 | 10.10.10.10/24 |
 | PC2 | 10.10.20.10/24 |
-
-## Router Configuration
-To be documented.
-
-## Connectivity Testing
-To be verified.
-
-## Troubleshooting
-To be documented.
-
-## Lessons Learned
-To be completed.
 
 
 ## Router Interface Configuration
@@ -81,3 +67,21 @@ during the final verification tests.
 ## Router Configuration
 
 [View R1 Configuration](R1-config.txt)
+
+## Network Topology
+
+![Network Topology](network-topology.png)
+
+## Connectivity Test Evidence
+
+### PC1 to PC2
+
+![PC1 Ping](PC1-to-PC2-ping.png)
+
+**Result:** PASS - 0% packet loss
+
+### PC2 to PC1
+
+![PC2 Ping](PC2-to-PC1-ping.png)
+
+**Result:** PASS - 0% packet loss
