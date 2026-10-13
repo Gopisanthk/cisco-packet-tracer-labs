@@ -7,12 +7,12 @@ two separate LANs.
 
 ## IP Addressing
 
-| Device | IP Address |
-|---|---|
-| R1 G0/0 | 10.10.10.1/24 |
-| R1 G0/1 | 10.10.20.1/24 |
-| PC1 | 10.10.10.10/24 |
-| PC2 | 10.10.20.10/24 |
+| Device | Interface | IP Address | Subnet Mask | Default Gateway |
+|---|---|---|---|---|
+| R1 | G0/0 | 10.10.10.1 | 255.255.255.0 | N/A |
+| R1 | G0/1 | 10.10.20.1 | 255.255.255.0 | N/A |
+| PC1 | FastEthernet0 | 10.10.10.10 | 255.255.255.0 | 10.10.10.1 |
+| PC2 | FastEthernet0 | 10.10.20.10 | 255.255.255.0 | 10.10.20.1 |
 
 
 ## Router Interface Configuration
